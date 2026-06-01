@@ -37,10 +37,10 @@ const articles = [
 
 export function Articles() {
   return (
-    <>
+    <ul>
       {articles.map(({ href, title }) => (
         <Article key={href} href={href} title={title} />
       ))}
-    </>
+    </ul>
   )
 }

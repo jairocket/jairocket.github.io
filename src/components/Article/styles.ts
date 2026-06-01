@@ -13,30 +13,35 @@ export const ArticlesContainer = styled.div`
     width: 100%;
   }
 
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
 
   a {
+    display: block;
     color: ${(props) => props.theme['gray-100']};
-    padding-right: 1rem;
+    padding: 0.6rem 0;
     text-decoration: none;
+    border-bottom: 1px solid rgba(178, 178, 178, 0.08);
+    transition: color 0.2s ease, padding-left 0.2s ease;
+
     &:hover {
       color: ${(props) => props.theme['blue']};
     }
 
     @media screen and (min-width: 768px) {
-      display: block;
-      padding: 0.6rem 0;
-      padding-right: 0;
-      border-bottom: 1px solid rgba(178, 178, 178, 0.08);
       transition: color 0.2s ease, padding-left 0.2s ease;
 
       &:hover {
         padding-left: 0.625rem;
       }
-
-      &:last-child {
-        border-bottom: none;
-      }
     }
+  }
+
+  li:last-child a {
+    border-bottom: none;
   }
 
   span {

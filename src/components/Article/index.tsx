@@ -5,8 +5,10 @@ export type ArticleType = {
 
 export function Article({ href, title }: ArticleType) {
   return (
-    <a href={href} target={'_blank'}>
-      {title}
-    </a>
+    <li>
+      <a href={href} target={'_blank'}>
+        {title}
+      </a>
+    </li>
   )
 }
