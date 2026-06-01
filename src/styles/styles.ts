@@ -32,7 +32,15 @@ export const Heading = styled.h1`
     }
   }
 `
-export const Heading2 = styled.h2``
+export const Heading2 = styled.h2`
+  @media screen and (min-width: 768px) {
+    text-align: left;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid ${(props) => props.theme['blue']};
+    margin-bottom: 1.75rem;
+    width: 100%;
+  }
+`
 
 export const IdContainer = styled.div`
   display: flex;

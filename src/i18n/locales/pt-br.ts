@@ -15,15 +15,15 @@ export default {
             studying: "Também possuo conhecimentos em "
         },
         projects: {
-            description:  {
+            description: {
                 wined: "Rede social para amantes de vinhos. Permite cadastrar novos membros, confrarias e eventos. Por meio das confrarias, é possível interagir por meio de postagens, curtidas e comentários.",
                 marvellous: "Descubra personagens, revistas e séries do universo Marvel.",
-                budget: "API para controle de gastos."
+                budget: "API para controle de gastos.",
+                runner: "Aplicativo de rastreamento de corridas em Kotlin."
             }
-        }, 
+        },
         scroll: {
             top: "Voltar ao topo"
         }
-
     }
 }

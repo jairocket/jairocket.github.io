@@ -20,6 +20,10 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     font-size: 1rem;
 
+    @media screen and (min-width: 768px) {
+      font-size: 1.0625rem;
+      line-height: 1.75;
+    }
  }
 
  span, h2, nav{
