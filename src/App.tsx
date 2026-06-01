@@ -19,11 +19,10 @@ import {
 import { Projects } from './components/Projects'
 import { ProjectsContainer } from './components/Projects/styles'
 import { ArticlesContainer } from './components/Article/styles'
-import { Article } from './components/Article'
+import { Articles } from './components/Articles'
 import { SocialMediaLinks } from './components/SocialMediaLinks'
 import { Skills } from './components/Skills'
 
-import { projects, articles } from './data'
 import { Footer } from './components/Footer'
 
 
@@ -52,16 +51,7 @@ function App() {
         </ProjectsContainer>
         <ArticlesContainer>
           <Heading2 id="articles">{t("section.articles")}</Heading2>
-          {articles.map((article) => {
-            const { href, title } = article
-            return (
-              <Article
-                key={title}
-                href={href}
-                title={title}
-              />
-            )
-          })}
+          <Articles />
         </ArticlesContainer>
         <Footer />
       </AppContainer>

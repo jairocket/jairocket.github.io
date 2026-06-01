@@ -34,4 +34,9 @@ export const AvatarSmall = styled.img`
 export const AvatarLarge = styled.img`
   height: 200px;
   width: 200px;
+
+  @media screen and (min-width: 768px) {
+    height: 270px;
+    width: 270px;
+  }
 `

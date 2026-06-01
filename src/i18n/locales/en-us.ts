@@ -13,17 +13,17 @@ export default {
             frontend:"I have experience working with ",
             backend: "Currently, I've been hacking on ",
             studying: "I am also familiar with "
-        }, 
+        },
         projects: {
             description: {
                 wined: "Social media for wine lovers. You can create new members, events and brotherhoods; interact with posts, likes and comments.",
                 marvellous: "Browse stuff about marvel universe.",
-                budget: "A simple expenses control API."
-            } 
-        }, 
+                budget: "A simple expenses control API.",
+                runner: "Run tracker kotlin app."
+            }
+        },
         scroll: {
             top: "Scroll to top"
         }
-
     }
 }
