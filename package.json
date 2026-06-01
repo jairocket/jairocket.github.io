@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jairocket.github.io/jailsonanjos",
+  "homepage": "https://jairocket.github.io",
   "name": "jailsonanjos",
   "version": "0.0.0",
   "type": "module",
@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
